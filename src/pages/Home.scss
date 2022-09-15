@@ -1,0 +1,40 @@
+.gallery{
+    margin-top: 40px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    .individual{
+        color: white;
+        .texto{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: rgba(0, 0, 0, 0.616);
+            border-bottom: 2px solid white;
+           padding: 00px 20px;
+           h3{
+            font-weight: 400;
+            font-size: smaller;
+            color: rgb(190, 190, 190);
+            margin-top: 0;
+           }
+        }
+        h4{
+            font-weight: 600;
+            margin-bottom: 0;
+        }
+        p{
+            font-weight: 500;
+        }
+    }
+    img{
+        height: 500px;
+        border: 2px solid white;
+        min-width: 500px;
+        @media (max-width: 700px) {
+            height: 360px;
+            min-width: 360px;
+          }
+    }
+}
